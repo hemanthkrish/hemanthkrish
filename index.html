@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>artem.</title>
+
+    <!--bootstrap css goes here-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!--tailwind css goes here-->
+    
+    <!--custom css goes here-->
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!---navigation bar goes here-->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-#f2e5e5 top_nav">
+      <a class="navbar-brand title-name" href="#">artem.</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item searcharea">
+
+            <!-- search bar -->
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="registration/reg.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registration/reg.html">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!---navigation ends here-->
+
+    <div class="shadow p-3 mb-5 bg-white rounded row">
+
+      <!--image section goes-->
+
+      <div class="col-lg">
+        <img
+          src="images/imageforsite.jpg"
+          alt="illustration"
+          class="image shadow p-3 mb-5 bg-white rounded"
+        />
+      </div>
+
+      <!--here goes the card-->
+
+      <div class="card quote shadow p-3 mb-5 bg-white rounded col-lg">
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>
+              Painting is poetry that is seen rather than felt, and poetry is
+              painting that is felt rather than seen.
+            </p>
+            <footer class="blockquote-footer">
+              <cite title="Source Title">Leonardo da Vinci</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <!--carosal card stats here-->
+    
+    <h2>Latest collection</h2>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
+            <div class="card">
+              <img src="https://www.theartist.me/wp-content/uploads/2021/03/famous-paintings-of-India-bharatmata.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bharat Mata</h5>
+                <p class="card-text">Bharat Mata is a painting by Abanindranath Tagore done in 1905.</p>
+                <a href="#" class="btn btn-primary">view more >></a>
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="https://www.theartist.me/wp-content/uploads/2021/03/Horses-by-M-F-Hussain-696x391-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="https://www.theartist.me/wp-content/uploads/2021/03/Self-portrait-by-Amrita-Sher-Gil.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+              <div class="card">
+                <img src="https://www.theartist.me/wp-content/uploads/2021/03/famous-paintings-of-India-Three-Pujarins-by-Jamini-Roy-696x766-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="https://www.theartist.me/wp-content/uploads/2021/03/Shakuntala-by-Raja-Ravi-Verma.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="https://www.theartist.me/wp-content/uploads/2021/03/Days-of-Glory-by-Satish-Gujral.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <!--carosal card ends here-->
+
+    
+    <!--floating navigation goes here-->
+
+    <nav id="navbar-example2" class="navbar navbar-expand-lg bg-dark navbar-dark shadow-5-strong px-3 fixed-bottom bottom_nav ">
+        
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading0">Home</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#carouselExampleControls">Arts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Artists</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading4">Bid</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading3">About us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#foot">contact</a>
+          </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <h4 id="scrollspyHeading1">Latest collection</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, perspiciatis? Placeat suscipit quisquam nemo, soluta provident cumque eveniet similique fugit aut velit necessitatibus blanditiis modi omnis. Quae quo corrupti aperiam placeat, suscipit aliquam impedit facilis distinctio ut totam cumque possimus dignissimos alias voluptate quam delectus culpa dolorem dolores. Deleniti, dignissimos libero. Dignissimos veniam labore, in debitis voluptate quis nam reiciendis eos eius magnam, unde tempora quae molestias natus, neque ducimus sed ab consequatur molestiae nemo aspernatur dolores a non autem. Odit nihil accusamus sapiente officia nostrum dolore totam aut fugiat possimus, asperiores, cum harum. Atque ex iusto rem numquam quisquam at beatae quasi voluptates velit illo esse dolore id quas ducimus, expedita est voluptatibus, dolorum enim saepe voluptatem et quam earum maxime! Voluptates laborum pariatur eligendi, dolorem voluptate dignissimos deleniti molestias maiores iusto esse facilis perferendis magni fuga id saepe enim quibusdam animi omnis in voluptatibus doloribus doloremque sed. Unde et ea consequatur? Eum quasi optio voluptatem impedit provident. Molestiae, dicta in delectus, facere porro animi pariatur cum quas autem exercitationem fugit itaque sequi non harum voluptates. Quo, aut harum tempore dolorum sunt modi voluptas repudiandae officiis. Velit, incidunt atque nobis libero nisi quae assumenda repellat. Eveniet tenetur doloremque numquam?</p>
+        <h4 id="scrollspyHeading2">Famous artists</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi doloremque quae dignissimos officia necessitatibus! Culpa facere nihil porro voluptatem nobis ducimus praesentium blanditiis beatae delectus, quis id, explicabo sint excepturi? Fuga eum debitis, deleniti recusandae rerum quaerat quas et autem repudiandae tenetur, cupiditate officiis consequatur libero dolore culpa unde at molestias? Animi eveniet hic dolores maiores repellat officiis, nostrum a laudantium! Qui, rerum dolor natus at reprehenderit sit totam, accusantium libero pariatur commodi aliquid obcaecati vel quaerat iure nemo sequi tempora saepe soluta recusandae inventore explicabo eaque. Commodi consectetur dolores iure hic rem a, reiciendis dignissimos totam excepturi quis. Laudantium.</p>
+        <h4 id="scrollspyHeading3">About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laudantium officia ipsam tenetur, aut et saepe dolor earum inventore dolorum eligendi reiciendis molestias deleniti modi nam magni. Asperiores in cumque officia excepturi et tenetur non ratione sequi expedita pariatur fugiat, deserunt numquam ea, laboriosam provident doloribus quae recusandae omnis. Sequi neque, quas aut repellat maiores, necessitatibus voluptas doloremque amet expedita, laborum incidunt. Harum, corrupti autem cum laborum possimus dolore, ipsam et assumenda voluptates perferendis laboriosam quod quibusdam, delectus iusto labore sequi magni amet eligendi. Esse quod ratione laudantium mollitia, non possimus, recusandae quibusdam cupiditate numquam sunt atque hic similique cum.</p>
+    
+      </div>
+
+    <!--floaating navigation ends here-->
+
+    <!--footer goes here-->
+
+
+    <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+    <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+
+<footer class="relative bg-#f2e5e5-200 pt-8 pb-6 " id = "foot">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap text-left lg:text-left">
+      <div class="w-full lg:w-6/12 px-4">
+        <h4 class="text-3xl fonat-semibold text-blueGray-700">Let's keep in touch!</h4>
+        <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
+          Find us on any of these platforms, we respond 1-2 business days.
+        </h5>
+        <div class="mt-6 lg:mb-0 mb-6">
+          <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-twitter"></i></button><button class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-facebook-square"></i></button><button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-dribbble"></i></button><button class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-github"></i>
+          </button>
+        </div>
+      </div>
+      <div class="w-full lg:w-6/12 px-4">
+        <div class="flex flex-wrap items-top mb-6">
+          <div class="w-full lg:w-4/12 px-4 ml-auto">
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">About Us</a>
+              </li>
+    
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/">Github</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="google.com">Free Products</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-4/12 px-4">
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="my-6 border-blueGray-300">
+    <div class="flex flex-wrap items-center md:justify-between justify-center">
+      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+        <div class="text-sm text-blueGray-500 font-semibold py-1">
+          Copyright © <span id="get-current-year">2023</span><a href="https://www.creative-tim.com/product/notus-js" class="text-blueGray-500 hover:text-gray-800" target="_blank"> Notus JS by
+          <a href="https://www.creative-tim.com?ref=njs-profile" class="text-blueGray-500 hover:text-blueGray-800">artem.org</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!--footer ends here-->
+   
+    <!---js for bs components goes here-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
